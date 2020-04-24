@@ -9,6 +9,6 @@ then
 	ln -s /etc/nginx/sites-available/localhost_indexoff.conf /etc/nginx/sites-enabled/
 	service nginx restart
 else
-	echo "Use ./index on or off for activate or disable autoindex"
+	echo "Use ./index.sh on or off for activate or disable autoindex"
 
 fi	
