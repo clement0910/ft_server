@@ -1,5 +1,5 @@
 FROM debian:buster
-LABEL maintainer="Clement Sapt <csapt@student.le-101.fr>"
+LABEL maintainer="Clement Sapt <csapt@student.42lyon.fr>"
 WORKDIR /ft_server
 COPY srcs /ft_server
 RUN apt-get update && apt-get upgrade -y && apt-get install -y figlet
